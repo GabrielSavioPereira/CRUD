@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Controle de Estoque - Almoxarifado</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      margin: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .box {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      width: 400px;
+      max-width: 100%;
+    }
+
+    .box h2 {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #2980b9;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #2980b9;
+      color: white;
+      font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f4f7fb;
+    }
+
+    /* Status colors */
+    .quantity-positive {
+      color: green;
+      font-weight: bold;
+    }
+
+    .quantity-negative {
+      color: #c0392b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Controle de Estoque - Almoxarifado</h1>
+
+  <div class="container">
+
+    <div class="box">
+      <h2>Entrada de Produtos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Data</th>
+            <th>Responsável</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Parafuso</td>
+            <td class="quantity-positive">+150</td>
+            <td>2025-06-10</td>
+            <td>João</td>
+          </tr>
+          <tr>
+            <td>Porca</td>
+            <td class="quantity-positive">+80</td>
+            <td>2025-06-11</td>
+            <td>Maria</td>
+          </tr>
+          <tr>
+            <td>Chave de Fenda</td>
+            <td class="quantity-positive">+25</td>
+            <td>2025-06-12</td>
+            <td>Carlos</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="box">
+      <h2>Saída de Produtos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Data</th>
+            <th>Responsável</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Parafuso</td>
+            <td class="quantity-negative">-30</td>
+            <td>2025-06-14</td>
+            <td>Ana</td>
+          </tr>
+          <tr>
+            <td>Porca</td>
+            <td class="quantity-negative">-10</td>
+            <td>2025-06-15</td>
+            <td>Bruno</td>
+          </tr>
+          <tr>
+            <td>Chave de Fenda</td>
+            <td class="quantity-negative">-5</td>
+            <td>2025-06-16</td>
+            <td>Renata</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</body>
+</html>
