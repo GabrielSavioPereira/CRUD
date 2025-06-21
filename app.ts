@@ -1,21 +1,18 @@
-import express from "express"
-import { RequestsController } from "./infrastructure/controllers/requests.controller"
+import express from 'express';
+import cors from 'cors';
+import router from './routes';
 
+const app = express();
+const PORT = 3000;
 
-const app = express()
-const port = 3000
+// Middlewares
+app.use(cors());
+app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+// Rotas
+app.use('/api', router);
 
-// const requestController = new RequestsController(); 
-// app.post('/request', async (req, res) => {
-//   var response = await requestController.CreateNewRequest(req.body)
-//   response ? res.append("sucesso") : res.append("erro")
-// })
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
-
+// Rota de status
+app.get('/', (_, res) => {
+  res.send('🚀 API rodando com sucesso!');
+});
