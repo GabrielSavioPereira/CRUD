@@ -29,6 +29,7 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
     <br>
     └── xampp\
     <br>
+    <div style="margin-left: 15px">
     └── htdocs\
     <br>
         └── CRUD\
@@ -38,6 +39,7 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
             ├── style
     <br>
             ├── view
+        </div>
 </p>
 
 <h2>Quarto - Acessar a Pasta</h2>
