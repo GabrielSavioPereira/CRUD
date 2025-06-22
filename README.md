@@ -22,6 +22,8 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
   <p>Após encontrar, é preciso retirar os " ; ", tanto do começo quanto do final da frase</p>
 
 <h2>Terceiro - Adicionar a pasta "CRUD" no diretorio abaixo</h2>
+ <p> Retirar os itens da pasta htdocs antes de adicionar os arquivos do repositorio</p>
+   
 <p>
     C:\
     <br>
