@@ -19,11 +19,16 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
 <h2>Segundo - Adicionar a pasta "CRUD" no diretorio abaixo</h2>
 <p>
     C:\
+    <br>
     └── xampp\
+    <br>
     └── htdocs\
+    <br>
         └── CRUD\
+    <br>
             ├── script
+    <br>
             ├── style
-            ├── script
+    <br>
             ├── view
 </p>
