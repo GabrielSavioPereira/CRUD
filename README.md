@@ -32,3 +32,6 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
     <br>
             ├── view
 </p>
+
+<h2>Terceiro - Acessar a Pasta</h2>
+<p>Para acessar o projeto, basta ir em um navagador e digitar " localhost " na parte de pesquisa</p>
