@@ -8,7 +8,7 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
     <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,postgres,php,vscode" />
   </a>
-
+</div>
 
 
   <h1>Como Iniciar o Projeto</h1>
