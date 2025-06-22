@@ -28,6 +28,7 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
     C:\
     <br>
     └── xampp\
+    <br>
     └── htdocs\
     <br>
         └── CRUD\
