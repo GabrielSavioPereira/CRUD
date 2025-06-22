@@ -13,5 +13,17 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
 
   <h1>Como Iniciar o Projeto</h1>
 
-  <h2>Primeiro - Instalar o XAMP</h2>
-  <p>O xamp pode ser instalado através do LINK: https://www.apachefriends.org/pt_br/index.html</p>
+  <h2>Primeiro - Instalar o XAMPP</h2>
+  <p>O xampp pode ser instalado através do LINK: https://www.apachefriends.org/pt_br/index.html</p>
+
+<h2>Segundo - Adicionar a pasta "CRUD" no diretorio abaixo</h2>
+<p>
+    C:\
+    └── xampp\
+    └── htdocs\
+        └── CRUD\
+            ├── script
+            ├── style
+            ├── script
+            ├── view
+</p>
