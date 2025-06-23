@@ -4,7 +4,7 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
 
 
 <h1>Linguagens e Técnologias Utilizadas</h1>
-<div style="display: inline_block" align="center" ><br>
+<div style="display: inline_block"><br>
     <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,postgres,php,vscode" />
   </a>
@@ -41,5 +41,5 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
         </div>
 </p>
 
-<h2>Quarto - Acessar a Pasta</h2>
-<p>Para acessar o projeto, basta ir em um navagador e digitar " localhost " na parte de pesquisa</p>
+<h2>Quarto - Acessar o Projeto</h2>
+<p>Para acessar o projeto, temos que abrir o xampp, habilitar o apache, ir em um navagador e digitar " localhost " na parte de pesquisa</p>
