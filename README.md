@@ -6,7 +6,7 @@ Sistema de Almoxarifado que mostrará a entrada e saida de itens no estoque;
 <h1>Linguagens e Técnologias Utilizadas</h1>
 <div style="display: inline_block"><br>
     <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,postgres,php,vscode" />
+    <img src="https://skillicons.dev/icons?i=git,postgres,php,vscode,html,css" />
   </a>
 </div>
   <h1>Como Iniciar o Projeto</h1>
