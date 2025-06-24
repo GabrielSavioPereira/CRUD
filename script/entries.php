@@ -22,3 +22,5 @@ try {
         echo "Erro ao registrar entrada: " . $e->getMessage();
     }
 }
+
+
