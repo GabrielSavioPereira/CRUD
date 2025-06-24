@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $employee_id = $_POST['employee_id'];
     $destination = $_POST['destination']; 
     try {
-        $stmt = $pdo->prepare("INSERT INTO exits (item_id, quantity, date, employee_id, destination)VALUES (:item_id, :quantity, :date, :employee_id, :destination ");
+        $stmt = $pdo->prepare("INSERT INTO exits (item_id, quantity, date, employee_id, destination)VALUES (:item_id, :quantity, :date, :employee_id, :destination )");
         $stmt->execute([
             ':item_id' => $item_id,
             ':quantity' => $quantity,
