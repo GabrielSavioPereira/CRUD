@@ -6,18 +6,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $quantity = $_POST['quantity'];
     $date = $_POST['date'];
     $employee_id = $_POST['employee_id'];
-    $destination = $_POST['destination']; 
+    $destination = $_POST['destination'];
+
     try {
-        $stmt = $pdo->prepare("INSERT INTO exits (item_id, quantity, date, employee_id, destination)VALUES (:item_id, :quantity, :date, :employee_id, :destination )");
+        $stmt = $pdo->prepare("CALL registrar_saida(:item_id, :quantity, :employee_id, :destination, :date)");
         $stmt->execute([
             ':item_id' => $item_id,
             ':quantity' => $quantity,
-            ':date' => $date,
             ':employee_id' => $employee_id,
-            ':destination' => $destination
+            ':destination' => $destination,
+            ':date' => $date
         ]);
         echo "<script>alert('Saída registrada com sucesso!'); window.history.back();</script>";
     } catch (PDOException $e) {
         echo "Erro ao registrar saída: " . $e->getMessage();
     }
 }
+?>
